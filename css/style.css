@@ -19,7 +19,6 @@ body{
     display: flex;
     width: 90vw;
 }
-
 .panel{
     background-size: auto 100%;
     background-position: center;
@@ -27,7 +26,7 @@ body{
     height: 80vh;
     border-radius: 50px;
     color: #e17a20;
-    font-size: xx-large;
+   
     cursor: pointer;
     flex: 0.5;
     margin: 10px;
@@ -35,7 +34,7 @@ body{
   transition: flex 0.7s ease-in;
 }
 .panel h3{
-    font-size: 24px;
+    font-size: xx-large;
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -290,14 +289,17 @@ footer{
  footer h4{
        color: #FFF8EF;
        padding: 0px 30px;
+       
      }
  footer p{
        color: #FFF8EF;
        padding: 0px 30px;
+       font-size: large;
      }
  footer i{
        padding: 0px 10px;
        cursor: pointer;
+       font-size: large;
      }
  .row {
        display: flex;
