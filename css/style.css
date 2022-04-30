@@ -293,10 +293,9 @@ footer{
        font-size: large;
      }
  .row {
-       padding: 10px 50px;
-       margin: 0;
+       padding: 50px;
        display: flex;
-       grid-template-columns:(1fr, 1fr);
+       grid-template-columns:(1fr, 1fr, 1fr);
        grid-gap: 400px;
    }
    .product-grid{
@@ -460,12 +459,12 @@ footer{
       background-color: #0E2436;
       border-color: #0E2436;
   }
+  @media (max-with: 480px){
+    .container{
+        width: 100vw;
+    }
     .panel:nth-of-type(4),
     .panel:nth-of-type(5){
         display: none;
-    }
-@media (max-with: 480px){
-    .container{
-        width: 100vw;
     }
 }
