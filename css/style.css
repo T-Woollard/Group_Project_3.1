@@ -60,11 +60,12 @@ body{
   }
 .navbar a {
     float: right;
-    color: #737373;
+    color: #0E2436;
   }
-.header li {
+.nav-item nav-link {
     display: inline;
     padding: 170px;
+    color: #0E2436;
   }
   html{
     font-size: 62.5%;
