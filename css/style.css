@@ -442,3 +442,12 @@ footer{
   .product-grid:hover .add-to-cart{
       opacity: 1;
       bottom: 8px;
+  }
+  .jumbotron {
+      background-color: #EBE1DA;
+      color: #0E2436;
+  }
+  #btn btn-primary btn-lg {
+      background-color: #0E2436;
+      border-color: #0E2436;
+  }
