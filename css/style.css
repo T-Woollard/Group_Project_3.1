@@ -60,8 +60,9 @@ body{
   header ul {
     position: sticky;
     top: 0%;
-    float: center;
+    float: right;
     color: #737373;
+    font-size: large;
   }
   header li {
     position: sticky;
