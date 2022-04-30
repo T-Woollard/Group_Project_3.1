@@ -26,7 +26,8 @@ body{
     background-repeat: no-repeat;
     height: 80vh;
     border-radius: 50px;
-    color: #0E2436;
+    color: #e17a20;
+    font-size: xx-large;
     cursor: pointer;
     flex: 0.5;
     margin: 10px;
